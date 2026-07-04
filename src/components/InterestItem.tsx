@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { useTranslation } from 'react-i18next'; 
 import { Code2, Zap, Heart, BookOpen, Award, Coffee } from "lucide-react";
 
 interface InterestItem {
@@ -8,36 +9,38 @@ interface InterestItem {
 }
 
 const InterestsList: FC = () => {
+  const { t } = useTranslation();
+
   const interests: InterestItem[] = [
     { 
       icon: <Code2 size={22} strokeWidth={2} />, 
       title: "Web Development", 
-      description: "Создание современных веб-приложений" 
+      description: t('interests.webDevDesc') 
     },
     { 
       icon: <Zap size={22} strokeWidth={2} />, 
       title: "Performance", 
-      description: "Оптимизация и быстрая загрузка" 
+      description: t('interests.perfDesc') 
     },
     { 
       icon: <Heart size={22} strokeWidth={2} />, 
       title: "UI/UX Design", 
-      description: "Красивый и понятный интерфейс" 
+      description: t('interests.designDesc') 
     },
     { 
       icon: <BookOpen size={22} strokeWidth={2} />, 
       title: "Learning", 
-      description: "Постоянное обучение новому" 
+      description: t('interests.learningDesc') 
     },
     { 
       icon: <Award size={22} strokeWidth={2} />, 
       title: "Best Practices", 
-      description: "Следование лучшим практикам" 
+      description: t('interests.practicesDesc') 
     },
     { 
       icon: <Coffee size={22} strokeWidth={2} />, 
       title: "Coffee Lover", 
-      description: "Программирую под кофе" 
+      description: t('interests.coffeeDesc') 
     }
   ];
 

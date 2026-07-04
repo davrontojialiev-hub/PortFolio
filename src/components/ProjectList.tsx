@@ -18,14 +18,14 @@ const ProjectList: FC = () => {
   const myProjects: ProjectItem[] = [
     {
       title: "BMW 3",
-      description: t('projects.bmw.description'), 
+      description: t('projects.items.bmw.description'), 
       imageUrl: "blue-bg", 
       tags: ["HTML", "JavaScript", "CSS"],
       projectUrl: "#"
     },
     {
       title: "Porsche",
-      description: t('projects.porsche.description'),
+      description: t('projects.items.porsche.description'),
       imageUrl: "purple-bg",  
       tags: ["HTML", "TypeScript", "CSS"],
       projectUrl: "#"
