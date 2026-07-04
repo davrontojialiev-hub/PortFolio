@@ -1,0 +1,195 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contacts": "Contacts"
+  },
+  "education": {
+    "title": "Education",
+    "present": "Present",
+    "bachelor": "Bachelor of Computer Science",
+    "university": "Technical University",
+    "courses": "Online Courses on Web Development",
+    "platforms": "Various Platforms (Udemy, Coursera)"
+  },
+  "interests": {
+    "title": "My Interests",
+    "webDevDesc": "Creating modern web applications",
+    "perfDesc": "Optimization and fast loading",
+    "designDesc": "Beautiful and intuitive interface",
+    "learningDesc": "Continuous learning of new things",
+    "practicesDesc": "Following best practices",
+    "coffeeDesc": "Programming while drinking coffee"
+  },
+  "hero": {
+    "welcome": "Welcome to my portfolio",
+    "greeting": "Hi, I'm",
+  "profession": "a Developer",
+    "subtitle": "I build modern web applications with beautiful design and excellent UX. Specializing in React, TypeScript, and modern frameworks.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me",
+    "stats": {
+      "projects": "Projects",
+      "experience": "Years of experience",
+      "satisfaction": "Satisfaction"
+    }
+  },
+  "projects": {
+    "bmw": {
+      "description": "An energetic promotional showcase for speed enthusiasts: bold design, detailed specs, and the aesthetics of an iconic sports car."
+    },
+    "porsche": {
+      "description": "An atmospheric dark landing page for presenting the GT3 RS track monster. Minimum distractions, maximum character."
+    }
+  },
+  "about": {
+    "titlePage": "About",
+    "titlePageAccent": "me",
+    "subtitlePage": "A student developer passionate about building beautiful and functional web applications",
+    "story": {
+      "title": "My Story",
+      "p1": "Hi! I'm a student developer specializing in building modern web applications. My passion for programming started a few years ago when I built my very first website.",
+      "p2": "Since then, I've been constantly learning and growing, exploring new technologies and frameworks. I love turning concepts into reality through code, creating applications that look stunning and perform flawlessly.",
+      "p3": "I believe in the power of great design and clean code. Every project is an opportunity for me to craft something distinct and valuable for users."
+    },
+    "info": {
+      "title": "Personal Info",
+      "locationLabel": "Location",
+      "locationValue": "Tashkent, Uzbekistan",
+      "languagesLabel": "Languages",
+      "languagesValue": "Russian, English, Uzbek, German",
+      "statusLabel": "Status",
+      "statusValue": "Available for work"
+    }
+  },
+  "contact": {
+  "titlePage": "Contact",
+  "titlePageAccent": "me",
+  "subtitlePage": "Have a question or a proposal? I would be glad to discuss your project or collaboration opportunities",
+  "socialsTitle": "Social Networks",
+  "info": {
+    "title": "Contact Information",
+    "phoneLabel": "Phone",
+    "locationLabel": "Location",
+    "locationValue": "Tashkent, Uzbekistan",
+    "workTimeTitle": "Working Hours",
+    "workTimeWeekdays": "Monday - Friday",
+    "workTimeWeekends": "Weekends",
+    "workTimeWeekendValue": "By agreement",
+    "statusAvailable": "Available now"
+  },
+  "form": {
+    "title": "Send a Message",
+    "nameLabel": "Your name",
+    "subjectLabel": "Subject",
+    "messageLabel": "Message",
+    "submitBtn": "Send Message"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "How long does it take to get a response?",
+      "answer": "Usually, I respond within 24 hours on business days."
+    },
+    "q2": {
+      "question": "What kind of projects do you accept?",
+      "answer": "I am open to web development, UI/UX design, and frontend consultations."
+    },
+    "q3": {
+      "question": "Do you work remotely?",
+      "answer": "Yes, I work remotely with clients from all over the world."
+    }
+  },
+  "messages": {
+    "success": "Success! The message is on its way to Telegram 🚀",
+    "error": "Something went wrong during submission.",
+    "networkError": "Network error. Failed to reach Telegram."
+  },
+  "telegram": {
+    "newRequest": "New request from portfolio!"
+  }
+},
+"home": {
+  "projects": {
+    "title": "Featured Works",
+    "subtitle": "Some of my recent projects",
+    "moreBtn": "All Projects"
+  }
+},
+"skills": {
+  "titlePage": "My",
+  "titlePageAccent": "Skills",
+  "subtitlePage": "Technologies and tools I work with",
+  "developmentText": "I am always learning new technologies and improving my skills. Currently diving deep into:",
+  "sections": {
+    "techStack": "Technology Stack",
+    "development": "Continuous Development"
+  },
+  "categories": {
+    "frontend": "Frontend Development",
+    "backend": "Backend Development",
+    "design": "Design & UI/UX",
+    "tools": "Tools & DevOps"
+  },
+  "tags": {
+    "framework": "Framework",
+    "language": "Language",
+    "runtime": "Runtime",
+    "design": "Design",
+    "versionControl": "Version Control",
+    "editor": "Editor",
+    "database": "Database",
+    "deployment": "Deployment"
+  },
+  "soft": {
+    "teamwork": { "title": "Teamwork", "desc": "Effective collaboration with teams and clients" },
+    "problemSolving": { "title": "Problem Solving", "desc": "Analytical approach to solving complex challenges" },
+    "learning": { "title": "Adaptability", "desc": "Quickly mastering new technologies and tools" },
+    "communication": { "title": "Communication", "desc": "Clear articulation of ideas and technical choices" },
+    "timeManagement": { "title": "Time Management", "desc": "Efficient work planning and meeting deadlines" },
+    "creativity": { "title": "Creativity", "desc": "Out-of-the-box approaches to design and engineering" }
+  }
+},
+"projects": {
+  "titlePage": "My",
+  "titlePageAccent": "Projects",
+  "subtitlePage": "A collection of my recent works and experiments with new technologies",
+  "categories": {
+    "webApp": "Web Application",
+    "mobileApp": "Mobile Application",
+    "productivity": "Productivity"
+  },
+  "cta": {
+    "title": "Get in touch?",
+    "text": "Have a question or a proposal? I would be glad to discuss your project or collaboration opportunities",
+    "btn": "Contact me"
+  },
+  "items": {
+    "bmw": {
+      "description": "An energetic promo showcase for speed enthusiasts: bold design, detailed specs, and the aesthetics of the iconic sports car."
+    },
+    "porsche": {
+      "description": "An atmospheric dark landing page for presenting the track monster GT3 RS. Minimum distractions, maximum character."
+    },
+    "perfume": {
+      "description": "A sleek and minimalist e-commerce concept for selective perfumery with a focus on premium visual style."
+    },
+    "brutalism": {
+      "description": "A conceptual web catalog about architectural brutalism. Raw aesthetics of concrete, steel, and geometry."
+    },
+    "fengshui": {
+      "description": "An aesthetic and lightweight online store for craft pottery. Harmony of Eastern style and clean user interface."
+    },
+    "dreamArt": {
+      "description": "A targeted landing page to rescue video shoots: a service for rapid data recovery from memory cards for media pros."
+    }
+  }
+},
+"footer": {
+  "menuTitle": "Navigation",
+  "socials": "Social Networks",
+  "copyright": "All rights reserved."
+}
+}
