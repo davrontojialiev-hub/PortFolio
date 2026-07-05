@@ -1,11 +1,12 @@
 import { FC } from 'react';
-import { useTranslation } from 'react-i18next'; 
+import { useTranslation } from 'react-i18next';
 import InterestsList from '../components/InterestItem';
 import { useScrollAnimation } from '../useScrollAnimation';
+import myPhoto from '../assets/img/myPhoto.jpg';
 
 const About: FC = () => {
   const containerRef = useScrollAnimation();
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
 
   return (
     <section id="about" className="about-section" ref={containerRef}>
@@ -58,7 +59,7 @@ const About: FC = () => {
             </div>
           </div>
 
-          <div className="about-section__right">
+         <div className="about-section__right">
             <div className="about-card about-card--info fade-in-element">
               <h3 className="about-card__title">{t('about.info.title')}</h3>
 
@@ -85,17 +86,23 @@ const About: FC = () => {
                   </span>
                 </div>
               </div>
+
+              {/* Фотография теперь стоит после списка */}
+              <div className="about-card about-card--photo fade-in-element" style={{ marginTop: '24px' }}>
+                <img src={myPhoto} alt="Developer" className="about-card__photo" />
+              </div>
             </div>
-          </div>
+          
         </div>
-
-        <div className="about-interests fade-in-element">
-          <h3 className="about-interests__title">{t('interests.title')}</h3>
-          <InterestsList />
-        </div>
-
       </div>
-    </section>
+
+      <div className="about-interests fade-in-element">
+        <h3 className="about-interests__title">{t('interests.title')}</h3>
+        <InterestsList />
+      </div>
+
+    </div>
+    </section >
   );
 };
 

@@ -197,6 +197,25 @@ a {
   width: 100%;
 }
 
+
+.about-card--photo {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 20px !important;
+  padding: 15px !important;
+  margin-top: 20px !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.about-card__photo {
+  width: 100% !important;
+  max-width: 200px !important;
+  height: auto !important;
+  border-radius: 12px !important;
+  filter: brightness(0.9) contrast(1.1) !important; 
+}
+
 .interest-card {
   display: flex;
   align-items: center;
@@ -306,6 +325,14 @@ a {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 16px;
   }
+  .about-card--photo {
+    padding: 15px;
+    margin-top: 15px;
+  }
+  
+  .about-card__photo {
+    max-width: 270px; 
+  }
 }
 
 @media (max-width: 480px) {
@@ -326,6 +353,17 @@ a {
     border-radius: 16px;
   }
 
+.about-card--photo {
+    padding: 10px;      
+    margin-top: 15px;
+  }
+
+  .about-card__photo {
+    width: 100%;
+    max-width: 230px;   
+    aspect-ratio: 1 / 1.25; 
+    height: 300px;
+  }
   .interests-grid {
     grid-template-columns: 1fr !important;
     gap: 16px !important;
@@ -557,4 +595,5 @@ a {
       color: #ffffff !important;
     }
   }
+ 
 }
